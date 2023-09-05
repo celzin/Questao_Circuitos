@@ -1,6 +1,6 @@
 # Resolução da Questão 4 do Trabalho Avaliativo de Análise de Circuitos
 
-O circuito representado pela figura:
+O circuito é representado pela figura:
 
 <div align="center">
 <img src="imgs/circuit.png" width=70%>
