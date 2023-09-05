@@ -2,15 +2,21 @@
 
 O circuito representado pela figura:
 
-<img src="imgs/circuito.png" width=50% align="center">
+<div align="center">
+<img src="imgs/circuit.png" width=70%>
+</div>
 
 Pode ser modelado pelas leis de Ohm, Kirchoff da Corrente nos Nós e Kirchoff da Tensão nas Malhas para o seguinte sistema linear:
 
-<img src="imgs/table.png" width=50% align="center">
+<div align="center">
+<img src="imgs/table.png" width=70%>
+</div>
 
 Sua representação matricial é dada por:
 
-<img src="imgs/matrix.png" width=50% align="center">
+<div align="center">
+<img src="imgs/matrix.png" width=70%>
+</div>
 
 E usaremos a biblioteca numpy para resolvê-lo. Primeiro, devemos importar a biblioteca.
 
@@ -66,7 +72,7 @@ nomes_variaveis = ['V_a', 'V_b', 'V_c', 'V_d', 'V_e', 'V_f', 'V_g', 'V_h', 'V_i'
 resultados = np.linalg.solve(A, B).ravel()
 ```
 
-### Mostrando os resultados com formatação em latex:
+## Mostrando os resultados com formatação em latex:
 
 ```python
 from IPython.display import display, Markdown, Latex
@@ -99,4 +105,6 @@ $$
 display(Markdown(resultado_tex))
 ```
 
-<img src="imgs/result.png" width=50% align="center">
+<div align="center">
+<img src="imgs/result.png" width=40% align="center">
+</div>
