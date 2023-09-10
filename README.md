@@ -106,5 +106,5 @@ display(Markdown(resultado_tex))
 ```
 
 <div align="center">
-<img src="imgs/results.png" width=40% align="center">
+<img src="imgs/results.png" width=20% align="center">
 </div>
