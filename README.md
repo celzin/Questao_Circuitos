@@ -37,7 +37,7 @@ A = np.array([
     [0 for i in range(3)] + [1] + [0 for i in range(9)] + [-4],
     [0 for i in range(4)] + [1] + [0 for i in range(8)] + [-16],
     [0 for i in range(5)] + [1] + [0 for i in range(8)],
-    [0 for i in range(7)] + [1, 0, 0, -4] + [0 for i in range(3)],
+    [0 for i in range(7)] + [1, 0, 0, -5] + [0 for i in range(3)],
     [0 for i in range(8)] + [1, 0, 0, -30, 0, 0],
     [0 for i in range(9)] + [1, 1, 0, 0, 0],
     [0 for i in range(10)] + [1, -1, -1, 0],
