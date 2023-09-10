@@ -9,7 +9,7 @@ O circuito é representado pela figura:
 Pode ser modelado pelas leis de Ohm, Kirchoff da Corrente nos Nós e Kirchoff da Tensão nas Malhas para o seguinte sistema linear:
 
 <div align="center">
-<img src="imgs/table.png" width=70%>
+<img src="imgs/equation.png" width=70%>
 </div>
 
 Sua representação matricial é dada por:
@@ -106,5 +106,5 @@ display(Markdown(resultado_tex))
 ```
 
 <div align="center">
-<img src="imgs/result.png" width=40% align="center">
+<img src="imgs/results.png" width=40% align="center">
 </div>
